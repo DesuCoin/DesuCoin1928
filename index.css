@@ -630,6 +630,10 @@ footer {
         right: 0%;
         /* Moved closer to center from 20px */
     }
-
-
-}
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
